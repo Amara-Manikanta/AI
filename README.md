@@ -5,7 +5,6 @@ NLP
 ├── Lexical Processing
 │   ├── Tokenization & Stemming
 │   ├── Lemmatization
-│   ├── POS Tagging (Hidden Markov Model, Rule-based, Deep Learning)
 │   ├── Spell Checking (Edit Distance, N-Grams, Probabilistic Models)
 │   ├── Word Recognition
 │   ├── Bag of Words
@@ -18,7 +17,10 @@ NLP
 │   │   ├── Parse Tree
 │   │   ├── Dependency Parsing (MaltParser, Stanford Parser)
 │   │   ├── Syntax Error Detection
-│   ├── Markov Chain & HMM (for POS Tagging, Sequence Modeling)
+|   |   ├──POS Tagging (Hidden Markov Model, Rule-based, Deep Learning)
+│   ├── Markov Chain (for POS Tagging, Sequence Modeling)
+|   |   ├── Discrete Markov Chain (DMC)
+|   |   ├── Hidden Markov Model (HMM)
 │   ├── Top-Down & Bottom-Up Parsing
 │   ├── Chomsky Normal Form (CFGs in NLP)
 │   ├── Probabilistic Context-Free Grammars (PCFG)
